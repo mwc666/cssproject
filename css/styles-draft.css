@@ -1,0 +1,132 @@
+/*****DESIGN NOTES
+  CSS HEX
+--carrot-orange: #e89005ff;
+--sinopia: #d84a05ff;
+--light-goldenrod-yellow: #f3f9d2ff;
+--pinky: #ffbdd4;
+--tanish: #f1e3cb;
+--jet: #2f2f2fff;
+--cultured: #fcfafaff;
+--fern-green: #5c7457ff;
+--screamin-green: #6bf178ff;
+--rose-madder: #df2935ff;
+--mountain-meadow: #09bc8aff;
+--vermilion: #e3170aff;
+--celadon: #a9e5bbff;
+--medium-champagne: #fcf6b1ff;
+--honey-yellow: #f7b32bff;
+--lilac-luster: #af9ab2ff;
+--nadeshiko-pink: #f0a8c6ff;
+--lemon-chiffon: #fdf8c4ff;
+--maximum-yellow-red: #f9c04eff;
+--gunmetal: #2c363fff;
+--cultured: #f4f5f6ff;
+
+font-family: 'Bungee Shade', cursive;
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Ewert', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Caveat', cursive;
+
+/****TAG SELECTORS****/
+a {
+  color: #fdf8c4ff;
+  font-size: 20px;
+}
+
+body {
+  background-color: #f4f5f6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #f0a8c6ff;
+  font-family: 'Caveat', cursive;
+  font-size: 8.5rem;
+  margin: 150px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #f0a8c6ff;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #f9c04e;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #2c363f;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 1.5rem;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  list-style: inside;
+  background-color: pink;
+  padding: 30px;
+}
+li {
+  margin: 10px;
+}
+
+
+/****CLASS SELECTORS***/
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #fdf8c4ff;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.malarie {
+  width: 10%;
+  margin-top: 70px;
+}
+.trophy {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.current-role {
+  font-size: 4.5rem;
+}
+/****ID SELECTORS***/
